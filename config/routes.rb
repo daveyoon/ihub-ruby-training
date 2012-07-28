@@ -1,4 +1,6 @@
 Rentaroom::Application.routes.draw do
+  devise_for :users
+
   resources :bookings
 
   resources :hotels

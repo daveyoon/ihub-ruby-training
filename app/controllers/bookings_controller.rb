@@ -1,4 +1,6 @@
 class BookingsController < ApplicationController
+  
+
   # GET /bookings
   # GET /bookings.json
   def index
